@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Articulat_CF_Bold';
+  src: url(../assets/fonts/Articulat_CF/Articulat_CF_Bold.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Articulat_CF_Extra_Bold';
+  src: url(../assets/fonts/Articulat_CF/Articulat_CF_Extra_Bold.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Articulat_CF_Extra_Light';
+  src: url(../assets/fonts/Articulat_CF/Articulat_CF_Extra_Light.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Articulat_CF_Heavy';
+  src: url(../assets/fonts/Articulat_CF/Articulat_CF_Heavy.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Articulat_CF_Light';
+  src: url(../assets/fonts/Articulat_CF/Articulat_CF_Light.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Articulat_CF_Medium';
+  src: url(../assets/fonts/Articulat_CF/Articulat_CF_Medium.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Articulat_CF_Normal';
+  src: url(../assets/fonts/Articulat_CF/Articulat_CF_Normal.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Articulat_CF_Regular';
+  src: url(../assets/fonts/Articulat_CF/Articulat_CF_Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Articulat_CF_Thin';
+  src: url(../assets/fonts/Articulat_CF/Articulat_CF_Thin.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PowerGrotesk-Regular';
+  src: url(../assets/fonts/PowerGrotesk/PowerGrotesk-Regular.ttf) format('truetype');
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.font_articulat {
+  font-family: Articulat_CF_Regular;
+}
+
+.font_articulat_medium {
+  font-family: Articulat_CF_Medium;
+}
+
+.font_powergrotesk {
+  font-family: PowerGrotesk-Regular;
+}
